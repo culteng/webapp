@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T01:09:02.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="IGl66BqRkQ0HUUHGg7pQ" version="14.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-10T01:18:59.026Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="-nPefdLIe3loE5GJL3if" version="14.3.0" type="github" pages="3">
   <diagram id="giiNnV0ZEgZHaVHPHxLj" name="Page-1">
     <mxGraphModel dx="1200" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -612,6 +612,47 @@
         </mxCell>
         <mxCell id="FS6zz1buWBCHLxc1_Nt8-70" value="Repeat look as above all the way down" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="FS6zz1buWBCHLxc1_Nt8-1">
           <mxGeometry x="4070" y="230" width="270" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ucF4EaKYZpVi_DoGMNOb" name="App Flow">
+    <mxGraphModel dx="987" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-0" />
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-1" parent="0plIqVp_nzEkVnFV7eVB-0" />
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0plIqVp_nzEkVnFV7eVB-1" source="0plIqVp_nzEkVnFV7eVB-2" target="0plIqVp_nzEkVnFV7eVB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-2" value="user login/registration" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="40" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0plIqVp_nzEkVnFV7eVB-1" source="0plIqVp_nzEkVnFV7eVB-3" target="0plIqVp_nzEkVnFV7eVB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-3" value="home page" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-5" value="pages: Home, Learners, Courses, Surveys, Action Pathways," style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="440" y="90" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-7" value="Home Page: just a welcome video and/or checklist" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-8" value="Learners: list of learners and groups, can quickly click and add an interaction with a particular learner like a note...&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="210" y="200" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-9" value="Courses: simple course catalog, can click to &quot;enroll learners&quot; which would start an action pathway.. don&#39;t need to reinvent wheel I think... could have a simple drop down that says &quot;create to action pathway&quot; or to preview course" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="570" y="200" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-10" value="Surveys: list of surveys... can click on one to create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="210" y="350" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-11" value="Action Pathways: list of action pathways, can click on one to create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="570" y="350" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0plIqVp_nzEkVnFV7eVB-12" value="Admin Page" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0plIqVp_nzEkVnFV7eVB-1">
+          <mxGeometry x="40" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
